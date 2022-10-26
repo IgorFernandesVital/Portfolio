@@ -33,7 +33,6 @@ body{
         width: 300px;
         height: 100px;
     } 
-
     #detalhe{
         margin-top: 30px;
         font-size: 50px;
@@ -49,7 +48,7 @@ body{
         margin-top: 15px;
     }
     #dev{
-        margin-top: 7px;
+        margin-top: 10px;
         font-size: 14px;
         font-weight: bold;
         letter-spacing: 1px;
@@ -66,7 +65,7 @@ body{
     text-align: center;
     pointer-events: none;
    
-}
+}   
     .content-iten{
         display: inline-block;
         padding: 10px; 
@@ -86,4 +85,41 @@ body{
         display: flex;
        
     }
-    
+#sobre-mim{
+    margin-top: 90px ;
+     
+}
+    #sobre-mim h1{
+        font-size: 170%;
+        color: #1e0501;
+    }
+    @keyframes go-back {
+        from {transform: scaleX(0.5);    }    
+        to {transform: scaleX(0);    }
+    }
+    #sobre-mim h1::before{
+        background-color: #1e0501;
+        content: "";
+        height: 1px;
+        width: 50px;
+        position: absolute;
+        opacity: 0.4;
+
+        animation: go-back 1s infinite alternate ;
+    }
+    #sobre-mim h1::after{
+        background-color: #1e0501;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        width: 100px;
+        margin-top: 32px;
+        margin-left: -130px;
+        position: absolute;
+        opacity: 0.4;
+    }
+    #sobre-mim p{
+        margin-top: 20px;
+        font-weight: bold;
+        letter-spacing: 0.1px;
+    }
