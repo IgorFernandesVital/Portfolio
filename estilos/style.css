@@ -70,7 +70,6 @@ body{
         display: inline-block;
         padding: 10px; 
         pointer-events: all;
-        
     }
     .midias-titulo{
         font-weight: bold;
@@ -83,43 +82,114 @@ body{
     a{
         text-decoration: none;
         display: flex;
-       
     }
 #sobre-mim{
-    margin-top: 90px ;
-     
+    margin-top: 50px ;  
 }
     #sobre-mim h1{
-        font-size: 170%;
+        font-size: 25px;
         color: #1e0501;
     }
     @keyframes go-back {
-        from {transform: scaleX(0.5);    }    
+        from {transform: scaleX(1);    }    
         to {transform: scaleX(0);    }
-    }
-    #sobre-mim h1::before{
-        background-color: #1e0501;
-        content: "";
-        height: 1px;
-        width: 50px;
-        position: absolute;
-        opacity: 0.4;
-
-        animation: go-back 1s infinite alternate ;
     }
     #sobre-mim h1::after{
         background-color: #1e0501;
         content: "";
         display: inline-block;
         height: 1px;
-        width: 100px;
+        width: 120px;
         margin-top: 32px;
-        margin-left: -130px;
+        margin-left: -125px;
         position: absolute;
         opacity: 0.4;
+
+        animation: go-back 1.5s infinite alternate
     }
     #sobre-mim p{
         margin-top: 20px;
         font-weight: bold;
         letter-spacing: 0.1px;
     }
+#section-projetos{
+    margin-top: 45px;
+}
+    #section-projetos h2{
+        font-size: 25px;
+        color: #1e0501;
+    }
+    #section-projetos h2::after{
+        content: '';
+        height: 1px;
+        width: 350px;
+        margin-top: 32px;
+        margin-left: -90px;
+        position: absolute;
+        display: inline-block;
+        background-color: #1e0501;
+        opacity: 0.4;
+    }
+        #container-projetos{
+            display: grid;
+            row-gap: 100px;
+            grid-template-columns: repeat(2, auto);
+            height: relative;
+            justify-content: space-around;
+            padding-top: 125px;
+        }
+            .projetos-desenvolvendo{
+                width: max-content;
+            }
+                .projetos-cotainer-link{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    background-color: black;
+                }
+                .projetos-desenvolvendo-aguarde{
+                    width: 140px;
+                    height: 100px;
+                    position: absolute;
+                    margin-top: -75px;
+                    border-radius: 3px;
+                    box-shadow: 0px 10px 15px -5px black;
+                    background-color: #9fa1a1;
+                }
+                    .projetos-desenvolvendo-aguarde::before{
+                        content: '';
+                        position: absolute;
+                        margin-top: 40px;
+                        margin-left: -20px;
+                        width: 180px;
+                        height: 20px;
+                        transform: rotate(-34.5deg);
+                        background-color: #734e39;
+                    }
+                    .projetos-desenvolvendo-aguarde::after{
+                        content: 'Aguarde...';
+                        position: absolute;
+                        margin-top: 42px;
+                        margin-left: 35px;
+                        transform: rotate(-34.5deg);
+                        font-size: 15px;
+                        color: white;
+                    }
+
+                .desenvolvendo{
+                    width: 160px;
+                    height: 180px;
+                    border-radius: 2px;
+                    background-color: #734e39;
+                }
+                    .desenvolvendo h3{
+                        margin-top: 35px;
+                        text-align: center;
+                        color: white;
+                    }
+                    .desenvolvendo p{
+                        margin-top: 10px;
+                        font-size: 13px;
+                        text-align: center;
+                        color: #f2e2c4;
+                    }
