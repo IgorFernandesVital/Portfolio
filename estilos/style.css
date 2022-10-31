@@ -24,7 +24,8 @@ body{
     flex-direction: row;
 }
 
-#header{
+.header{
+    padding: 0px 20px 0px;
     justify-content: center;
     width: 100%;
     display: flex; 
@@ -54,17 +55,13 @@ body{
         letter-spacing: 1px;
     }
     img{
-        
         width: 200px;
         pointer-events: none;
     }
-    
-#midias-sociais{
-    margin: 25px 0 0 0;
+.midias-sociais{
+    padding: 25px 20px 0px;
     width: 100%;
     text-align: center;
-    pointer-events: none;
-   
 }   
     .content-iten{
         display: inline-block;
@@ -83,10 +80,10 @@ body{
         text-decoration: none;
         display: flex;
     }
-#sobre-mim{
-    margin-top: 50px ;  
+.section-container-sobre-mim{ 
+    padding: 50px 20px 0px;
 }
-    #sobre-mim h1{
+    .section-container-sobre-mim h1{
         font-size: 25px;
         color: #1e0501;
     }
@@ -94,7 +91,7 @@ body{
         from {transform: scaleX(1);    }    
         to {transform: scaleX(0);    }
     }
-    #sobre-mim h1::after{
+    .section-container-sobre-mim h1::after{
         background-color: #1e0501;
         content: "";
         display: inline-block;
@@ -107,19 +104,19 @@ body{
 
         animation: go-back 1.5s infinite alternate
     }
-    #sobre-mim p{
+    .section-container-sobre-mim p{
         margin-top: 20px;
         font-weight: bold;
         letter-spacing: 0.1px;
     }
-#section-projetos{
-    margin-top: 45px;
+.section-projetos-container{
+    padding: 45px 20px 0px ;
 }
-    #section-projetos h2{
+    .section-projetos-container h2{
         font-size: 25px;
         color: #1e0501;
     }
-    #section-projetos h2::after{
+    .section-projetos-container h2::after{
         content: '';
         height: 1px;
         width: 350px;
@@ -130,7 +127,7 @@ body{
         background-color: #1e0501;
         opacity: 0.4;
     }
-        #container-projetos{
+        .container-projetos-desenvolvidos{
             display: grid;
             row-gap: 100px;
             grid-template-columns: repeat(2, auto);
@@ -175,7 +172,6 @@ body{
                         font-size: 15px;
                         color: white;
                     }
-
                 .desenvolvendo{
                     width: 160px;
                     height: 180px;
@@ -193,3 +189,28 @@ body{
                         text-align: center;
                         color: #f2e2c4;
                     }
+.primeiro-centralizar-texto{ 
+    padding: 30px 20px 20px ;
+    justify-content: center;
+    text-align: center;
+}
+    .primeiro-centralizar-texto p{
+        font-weight: bold;
+        opacity: 0.6;
+    }
+    .footer-midias{
+        display: grid;
+        column-gap: 15px;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    .footer-midias-icone{
+        width: 30px;
+        padding: 0px 0px 10px;
+    }
+    .footer-icone-link{
+        opacity: 0.5;
+    }
+    .footer-icone-link:focus{
+        opacity: 1;
+    }

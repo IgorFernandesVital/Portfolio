@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="estilos/midia-query.css">
 </head>
 <body>
-    <div id="main">
-        <div id="header">
+        <header class="header">
             <div id="resumo-sobre" >
                 <div id="detalhe">
                     <p>*</p>
@@ -21,8 +20,8 @@
                 <p id="dev">Desenvolvedor ASP.NET Core</p>
             </div>
             <div id="eu"><img src="imagens/eu.jpg" alt="Igor Fernandes Vital"></div>
-        </div>
-        <div id="midias-sociais">
+        </header>
+        <section class="midias-sociais">
             <div class="content-iten">
                 <a href="https://github.com/IgorFernandesVital">
                     <p class="midias-titulo">Github</p>
@@ -35,18 +34,17 @@
                     <img class="midias-icones" src="imagens/linkedin.svg" alt="Linkedin-icone">
                 </a>
             </div>
-        </div>
-       
-        <div id="sobre-mim">
+        </section>
+        <section class="section-container-sobre-mim">
             <h1>Sobre mim</h1>
             <p>
                 Meu primeiro contato com programação foi em 2019 após um professor me indicar a fazer, falando que era uma coisa que combinava comigo, pesquisei sobre e me apaixonei no mesmo instante. Fiz criação de sites com HTML e CSS, depois fazendo outro curso em banco de dados com SQL e PHP. Fiz alguns cursos no meio do caminho e decidir entrar na faculdade da Ciência da computação no primeiro bimestre de 2023.
             </p>
-        </div>
-        <section id="section-projetos">
+        </section>
+        <section class="section-projetos-container">
             <h2>Projetos</h2>
 
-            <div id="container-projetos">
+            <div class="container-projetos-desenvolvidos">
                 <div class="projetos-desenvolvendo">
                     <a href="#">
                         <div class="projetos-cotainer-link">
@@ -87,6 +85,21 @@
             </div>
 
         </section>
-    </div>
+        <footer class="primeiro-centralizar-texto">
+            
+            <div class="footer-midias">
+
+                <a class="footer-icone-link" href="https://github.com/IgorFernandesVital">
+                    <img class="footer-midias-icone" src="imagens/github.svg" alt="Github-icone">
+                </a>
+
+                <a class="footer-icone-link" href="https://www.linkedin.com/in/igor-fernandes-vital/">
+                    <img class="footer-midias-icone" src="imagens/linkedin.svg" alt="Linkedin-icone">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>Feito a mão por mim &copy; Igor Fernandes Vital</p>
+            </div>
+        </footer>
 </body>
 </html>
