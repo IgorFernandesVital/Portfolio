@@ -1,3 +1,156 @@
 @charset "UTF-8";
 
 /* Todas as demais midias */
+
+@media (min-width: 850px ){
+    .header{
+        padding: 0px 80px 0px;
+        justify-content: center;
+        width: 100%;
+        display: flex; 
+    } 
+        #detalhe{
+            margin-top: 80px;
+            font-size: 80px;
+        }
+        #numero-binario{
+            margin-top: 30px;
+            font-size: 15px;
+        }
+        #meu-nome{
+            font-size: 50px;
+        }
+        #dev{
+            margin-top: 10px;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        img{
+            width: 400px;
+        }
+
+        .midias-sociais{
+            position: absolute;
+            width: auto;
+            padding: 0px;
+            margin: -150px 0px 0px 80px;
+            display: grid;
+            grid-template-columns: 100px 100px;
+            column-gap: 50px;
+        }   
+            .content-iten{
+                padding: 0%;
+            }
+                .content-iten:after{
+                    height: 2px;
+                    width: 0px;
+                    margin: 5px 0 0 -48px;
+                    transition:0.3s;
+                }
+                .content-iten:hover::after{
+                    width: 80px;
+                }
+            .midias-titulo{
+                font-weight: bold;
+                margin: 5px 0 0 0;
+                font-size: 25px;
+            }
+            .midias-icones{
+                width: 35px;
+                margin-left: 7px;
+            }
+            a{
+                text-decoration: none;
+            }
+
+    .section-container-sobre-mim{ 
+        padding: 20vh 80px 0px;
+    }
+        .section-container-sobre-mim h1{
+            font-size: 40px;
+        }
+        @keyframes go-back {
+            from {width: 0;}    
+            to {width: 190px;}
+        }
+        .section-container-sobre-mim h1::after{
+            height: 1px;
+            margin-top: 50px;
+            margin-left: -190px;
+            opacity: 0.4;
+            animation: go-back 1.3s infinite alternate
+        }
+        .section-container-sobre-mim p{
+            margin-top: 35px;
+            font-size: 20px;
+            letter-spacing: 0.1px;
+        }
+        .section-projetos-container{
+            padding: 60px 80px 0px ;
+        }
+            .section-projetos-container h2{
+                font-size: 40px;
+            }
+            .section-projetos-container h2::after{
+                height: 1px;
+                width: 86%;
+                margin-top: 53px;
+                margin-left: -144px;
+                opacity: 0.4;
+            }
+                .container-projetos-desenvolvidos{
+                    display: grid;
+                    row-gap: 100px;
+                    grid-template-columns: repeat(3, auto);
+                    height: relative;
+                    justify-content: space-around;
+                    padding-top: 200px;
+                    padding-bottom: 50px;
+                }
+                    .projetos-desenvolvendo{
+                        width: max-content;
+                    }
+                        .projetos-cotainer-link{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                        .projetos-desenvolvendo-aguarde{
+                            width: 200px;
+                            height: 125px;
+                            margin-top: -100px;
+                        }
+                            .projetos-desenvolvendo-aguarde::before{
+                                margin-top: 52px;
+                                margin-left: -17px;
+                                width: 235px;
+                                height: 30px;
+                                transform: rotate(-30.5deg);
+                            }
+                            .projetos-desenvolvendo-aguarde::after{
+                                margin-top: 50px;
+                                margin-left: 60px;
+                                transform: rotate(-31.7deg);
+                                font-size: 20px;
+                            }
+                        .desenvolvendo{
+                            width: 240px;
+                            height: 200px;
+                            padding: 3px;
+                            border-radius: 3px;
+                        }
+                            .desenvolvendo h3{
+                                margin-top: 50px;
+                            }
+                            .desenvolvendo p{
+                                margin-top: 10px;
+                                font-size: 17px;
+                            }
+                            .primeiro-centralizar-texto{ 
+                                padding: 30px 80px 20px ;
+                            }
+                                .footer-midias-icone{
+                                    width: 35px;
+                                    padding: 0px 0px 10px;
+                                }
+}
