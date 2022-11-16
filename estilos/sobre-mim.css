@@ -1,0 +1,12 @@
+.section-container-sobre-mim{ 
+    padding: 50px 20px 0px;
+}
+    .section-container-sobre-mim h1{
+        font-size: 25px;
+        color: #1e0501;
+    }
+    .section-container-sobre-mim p{
+        margin-top: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1px;
+    }

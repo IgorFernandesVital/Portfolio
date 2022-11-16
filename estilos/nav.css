@@ -1,0 +1,23 @@
+.midias-sociais{
+    padding: 25px 20px 0px;
+    width: 100%;
+    text-align: center;
+}   
+    .content-iten{
+        display: inline-block;
+        padding: 10px; 
+        pointer-events: all;
+    }
+    .midias-titulo{
+        font-weight: bold;
+        margin: 5px 0 0 0;
+    }
+    .midias-icones{
+        width: 30px;
+        margin-left: 7px;
+    }
+    a{
+        text-decoration: none;
+        display: flex;
+        width: max-content;
+    }
