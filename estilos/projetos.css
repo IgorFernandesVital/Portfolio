@@ -1,69 +1,68 @@
 .section-projetos-container{
-    padding: 45px 20px 0px ;
+    padding: 20px 20px 20px ;
+    margin-top: 25px;
+    background: var(--cor-vidro);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
     .section-projetos-container h2{
-        font-size: 25px;
-        color: #1e0501;
+        font-size: 35px;
+        color: var(--cor-h1);
     }
         .container-projetos-desenvolvidos{
             display: grid;
-            row-gap: 100px;
-            grid-template-columns: repeat(2, auto);
+            row-gap: 50px;
+            grid-template-columns: repeat(1, auto);
             height: relative;
             justify-content: space-around;
-            padding-top: 115px;
+            padding-top: 35px;
         }
-            .projetos-desenvolvendo{
+            .projeto-desenvolvendo{
                 width: max-content;
             }
                 .projetos-cotainer-link{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    background-color: black;
+                    width: 270px;
+                    border-radius: 15px;
+                    background: #ffffff;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
                 }
-                .projetos-desenvolvendo-aguarde{
-                    width: 140px;
-                    height: 100px;
-                    position: absolute;
-                    margin-top: -75px;
-                    border-radius: 3px;
-                    box-shadow: 0px 10px 15px -5px black;
-                    background-color: #9fa1a1;
-                }
-                    .projetos-desenvolvendo-aguarde::before{
-                        content: '';
-                        position: absolute;
-                        margin-top: 40px;
-                        margin-left: -20px;
-                        width: 180px;
-                        height: 20px;
-                        transform: rotate(-34.5deg);
-                        background-color: #734e39;
+                    .img-desenvolvendo{
+                        width: 270px;
+                        border-radius:15px 15px 0 0;
                     }
-                    .projetos-desenvolvendo-aguarde::after{
-                        content: 'Aguarde...';
-                        position: absolute;
-                        margin-top: 42px;
-                        margin-left: 35px;
-                        transform: rotate(-34.5deg);
-                        font-size: 15px;
-                        color: white;
-                    }
-                .desenvolvendo{
-                    width: 160px;
-                    height: 180px;
-                    border-radius: 2px;
-                    background-color: #734e39;
-                }
-                    .desenvolvendo h3{
-                        margin-top: 35px;
+
+                    .projeto-descricao{
+                        padding:15px 15px 0 15px;
                         text-align: center;
-                        color: white;
                     }
-                    .desenvolvendo p{
-                        margin-top: 10px;
-                        font-size: 13px;
-                        text-align: center;
-                        color: #f2e2c4;
+                    .projeto-descricao h3{
+                        color: var(--cor-h1);
+                        font-size: 24px;
+                    }
+                    .projeto-descricao p{
+                       margin-top: 20px;
+                        font-size: 18px;
+                        color: var(--cor-letras-sem-destaque);
+                        font-weight: 400;
+                    }
+
+                    .container-tecnologias{
+                        width: 270;
+                        padding: 15px 10px 10px 10px;
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+                    .html, .css{
+                        padding: 10px;
+                        border-radius: 17px;
+                        font-weight: 400;
+                        background: var(--cor-secundaria);
+                        margin: 5px;
+                    }
+                    .html p, .css p {
+                        color: var(--cor-principal);
                     }

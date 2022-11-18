@@ -4,7 +4,8 @@
     text-align: center;
 }
     .primeiro-centralizar-texto p{
-        font-weight: bold;
+        font-weight: 400;
+        color: var(--cor-principal);
         opacity: 0.6;
     }
     .footer-midias{

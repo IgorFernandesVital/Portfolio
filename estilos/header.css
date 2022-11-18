@@ -1,34 +1,80 @@
-.header{
-    padding: 0px 20px 0px;
-    justify-content: center;
+header{
+    margin-top: -45px;
     width: 100%;
-    display: flex; 
+    padding: 15px 15px 15px 15px;
+    display: grid; 
+    grid-template-areas: "sobre image" "midias midias ";
+    border-radius: 15px;
+    background: var(--cor-vidro);
+    box-shadow: 0 15px 35px rgba(0, 0, 0,0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
 }  
     #resumo-sobre{
         width: 100%;
         height: 100px;
+        grid-area: sobre;
     } 
     #detalhe{
-        margin-top: 30px;
-        font-size: 50px;
+        font-size: 25px;
         font-weight: bold;
+        text-shadow: 0px 0px 15px var(--cor-letras);
     }
     #numero-binario{
-        margin-top: 10px;
-        font-weight: bold;
+        margin-top: 20px;
+        font-weight: 400;
     }
     #meu-nome{
         font-size: 170%;
-        color: #1e0501;
+        color: var(--cor-h1);
         margin-top: 15px;
     }
     #dev{
         margin-top: 10px;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 400;
         letter-spacing: 1px;
     }
-    img{
-        width: 200px;
-        pointer-events: none;
+    .eu{
+        box-shadow: 0 0 16px rgba(166, 102, 88, 0.6);
+        width: 190px;
+        border-radius: 10px;
     }
+
+    /* Aba midias sociais */
+    .midias-sociais{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+        grid-area: midias;
+    }   
+        .content-iten{
+            /* display: inline-block; */
+            padding: 15px; 
+            background: var(--cor-principal);
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+        }
+        .midias-titulo{
+            font-weight: bold;
+            margin: 5px 0 0 0;
+        }
+        .midias-icones{
+            width: 30px;
+            margin-left: 7px;
+        }
+        a{
+            text-decoration: none;
+            display: flex;
+            width: max-content;
+        }
+        #linkedin{
+            filter: drop-shadow(0px 0px 2px rgba(0, 122, 185, 0.7)) ;
+        }
+        #github{
+            filter:drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.7));
+        }
