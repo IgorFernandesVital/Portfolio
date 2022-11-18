@@ -27,7 +27,7 @@ body{
     padding: 40px 15px 15px 15px;;
     width: 100%;
     height: auto;
-    background: url(/imagens/fundo.jpg);
+    background: url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: repeat;
 }
