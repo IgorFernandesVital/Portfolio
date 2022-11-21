@@ -1,0 +1,18 @@
+.header-container{
+    padding: 30px 10px 0px 10px;
+}
+    .nome-resumo{
+        text-align: center;
+        color: var(--cor-letras);
+    }
+        .detalhe {
+            font-size: var(--font-size-primary);
+            font-weight: 700;
+        }
+        .meu-nome{
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+        .sub-titulo{
+            font-size: 0.9rem;
+        }
