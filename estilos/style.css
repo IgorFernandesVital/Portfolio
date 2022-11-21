@@ -4,14 +4,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: var(--cor-letras);
+    background: var(--cor-bk);
 }
 html{
     scroll-behavior: smooth;
 }
 :root{
-    --font-family-primary: ;
-    --font-size-primary: 1.5rem ;
-    --font-size-secondary: ;
+    --font-size-normal: 0.9rem ;
+    --font-size-title: 1rem;
+    --cor-bk: rgb(230,223,209) ;
     --cor-letras: rgb(59, 59, 59);
-    --cor-letras-destaque: rgb(159,84, 53) ;
+    --cor-letras-destaque: rgb(159,84, 53); 
 }
