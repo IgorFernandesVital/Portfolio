@@ -1,0 +1,54 @@
+.projetos-container{
+    padding: var(--centralizacao);
+    text-align: center;
+    padding-top: 5rem;
+}
+    .projetos-titulo{
+        font-size: var(--font-size-title);
+    }
+    .projetos-container-card{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+        .card-container{
+            width: 17rem;
+            height: 28rem;
+            border-radius: 0.8rem;
+            background-color: var(--cor-card);
+            box-shadow: 0 0.5rem 2.3rem rgba(59,59,59,0.6);
+        }
+        .projetos-container-card a{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card-image{
+            width: 17rem;
+            border-radius: 0.8rem 0.8rem 0 0;
+        }
+        .card-descricao{
+            padding: 1.5rem 0.5rem 0 0.5rem;
+        }
+        .card-resumo{
+            padding-top: 1rem;
+            font-size: var(--font-size-normal);
+        }  
+            .card-linguagens{
+                height: 3.7rem;
+                display: flex;
+                flex-flow: row wrap ;
+                justify-content: center;
+                column-gap: 0.5rem;
+                row-gap: 0.5rem;
+                padding: 1rem 0.8rem 0 0.8rem;
+            }
+            .card-linguagem{
+                width: fit-content;
+                height: fit-content;
+                padding: 0.4rem;
+                border-radius: 0.8rem;
+                color: var(--cor-card);
+                background: var(--cor-letras-destaque);   
+            }

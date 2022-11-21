@@ -5,15 +5,25 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: var(--cor-letras);
-    background: var(--cor-bk);
 }
 html{
     scroll-behavior: smooth;
 }
 :root{
     --font-size-normal: 0.9rem ;
-    --font-size-title: 1rem;
-    --cor-bk: rgb(230,223,209) ;
+    --font-size-title: 1.5rem;
+    --centralizacao: 0 1rem 0 1rem;
+    --cor-bk: rgb(230,223,209);
     --cor-letras: rgb(59, 59, 59);
-    --cor-letras-destaque: rgb(159,84, 53); 
+    --cor-letras-destaque: rgb(159,84, 53);
+    --cor-card: rgb(176,185,167);
+}
+body{
+    background: var(--cor-bk);
+}
+a{
+    text-decoration: none;
+}
+.texto-destacado{
+    color: var(--cor-letras-destaque);
 }

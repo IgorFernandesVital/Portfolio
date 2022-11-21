@@ -1,0 +1,9 @@
+.midias-sociais-container{
+    padding: 4rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+    .midias-sociais-img{
+        width: 2.4rem;
+    }
