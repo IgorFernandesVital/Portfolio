@@ -47,8 +47,8 @@
             .card-linguagem{
                 width: fit-content;
                 height: fit-content;
-                padding: 0.4rem;
-                border-radius: 0.8rem;
+                padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+                border-radius: 0.5rem;
                 color: var(--cor-card);
                 background: var(--cor-letras-destaque);   
             }
