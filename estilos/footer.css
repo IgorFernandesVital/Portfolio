@@ -1,0 +1,6 @@
+.footer-container{
+    padding: var(--centralizacao);
+    padding:3rem 0 2rem 0;
+    text-align: center;
+    opacity: 0.5;
+}

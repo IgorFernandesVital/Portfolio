@@ -14,8 +14,8 @@ html{
     --font-size-title: 1.5rem;
     --centralizacao: 0 1rem 0 1rem;
     --cor-bk: rgb(230,223,209);
-    --cor-letras: rgb(59, 59, 59);
-    --cor-letras-destaque: rgb(159,84, 53);
+    --cor-letras: rgb(59,59,59);
+    --cor-letras-destaque: rgb(159,84,53);
     --cor-card: rgb(176,185,167);
 }
 body{
