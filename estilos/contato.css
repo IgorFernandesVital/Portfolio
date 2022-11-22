@@ -1,0 +1,14 @@
+.contato-container{
+    padding: var(--centralizacao);
+    padding-top: 4rem;
+    text-align: center;
+}
+.contato-texto{
+    padding-top: 1.5rem;
+}
+.contato-texto a{
+    padding: 0 0.5rem 0;
+    border-radius: 0.5rem;
+    color: var(--cor-bk);
+    background: var(--cor-letras-destaque);
+}
