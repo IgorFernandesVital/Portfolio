@@ -1,68 +1,75 @@
-@media (min-width: 635px) and (max-width:768px)
+@media (min-width: 635px) and (max-width: 1090px)
 {
     /* Header */
-    .detalhe{
-        font-size: var(--font-size-title-tablet);
-    }
-    .meu-nome{
-        font-size: var(--font-size-title-tablet);
-    }
-    .sub-titulo{
-        font-size: var(--font-size-normal-tablet);
-    }
-    /* Midias sociais */
-    .midias-sociais-img{
-        width: 3rem;
-    }
-    /* Sobre mim */
-    .sobre-mim-container{
-        padding:1rem 2.5rem 0 ;
+    .header-area{
+        max-width: 1400px;
         display: grid;
         grid-template-areas: 
-        "titulo imagem"
-        ;
+        "titulo titulo"
+        "mim img"
+    ;
     }
-    .sobre-mim-conteudo{
-        padding: 9rem 2rem 0 2rem;
-    }
-        .sobre-mim-titulo{
-            font-size: var(--font-size-title-tablet);
-            grid-area: titulo;
+    /* Titulo -----------------------------------------------------------------------*/
+            .section-titulo{
+                grid-area: titulo;
+            }
+            .detalhe{
+                font-size: var(--font-size-title-tablet);
+            }
+            .meu-nome{
+                font-size: var(--font-size-title-tablet);
+            }
+            .sub-titulo{
+                font-size: var(--font-size-normal-tablet);
+            }
+    /* Midias sociais ---------------------------------------------------------------*/
+        .midias-sociais-img{
+            width: 3rem;
         }
-        .sobre-mim-texto{
-            font-size: var(--font-size-normal-tablet);
+    /* Sobre mim --------------------------------------------------------------------*/
+        .sobre-mim-conteudo{
+            padding-right: 1rem;
+            grid-area: mim;
         }
-    .eu{
-        width: 18rem;
-        grid-area: imagem;
-    }
-    /* Projetos */
+            .sobre-mim-titulo{
+                padding-top: 10rem;
+                font-size: var(--font-size-title-tablet);
+            }
+            .sobre-mim-texto{
+                font-size: var(--font-size-normal-tablet);
+            }
+        .eu{
+            margin-top: 2.5rem;
+            width: 20rem;
+            grid-area: img;
+        }
+    /* Projetos ---------------------------------------------------------------------*/
     .projetos-titulo{
         font-size: var(--font-size-title-tablet);
     }
-    .projetos-container-card{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 3rem;
-    }
-    /* Contato */
+        .projetos-container-card{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 3rem;
+        }
+    /* Contato ----------------------------------------------------------------------*/
     .contato-title{
         font-size: var(--font-size-title-tablet);
     }
-    .contato-texto{
-        font-size: var(--font-size-normal-tablet);
-    }
-    /* Footer */
+        .contato-texto{
+            font-size: var(--font-size-normal-tablet);
+        }
+    /* Footer -----------------------------------------------------------------------*/
     .footer-container{
         font-size: var(--font-size-normal-tablet);
     }
-    /* Barra de navegação */
+    /* Barra de navegação -----------------------------------------------------------*/
     .nav-estilo{
         padding: 0.5rem 5rem 0.5rem;
         border-radius: 1.5rem;
         column-gap: 3rem;
     }
-    .nav-icons{
-        width: 3.5rem;
-    }
+        .nav-icons{
+            width: 3.5rem;
+        }
 }

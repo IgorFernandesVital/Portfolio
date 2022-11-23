@@ -17,6 +17,9 @@ html{
     /* Tablet */
     --font-size-normal-tablet: 1.2rem;
     --font-size-title-tablet: 2.5rem;
+    /* Pc */
+    --font-size-normal-pc: 1.5rem;
+    --font-size-title-pc: 2.6rem;
     /* Cores gerais */
     --cor-bk: rgb(230,223,209);
     --cor-letras: rgb(59,59,59);

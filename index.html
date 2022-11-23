@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
     <link rel="stylesheet" href="./estilos/header.css">
-    <link rel="stylesheet" href="./estilos/sobre-mim.css">
     <link rel="stylesheet" href="./estilos/projetos.css">
-    <link rel="stylesheet" href="./estilos/midias-socias.css">
     <link rel="stylesheet" href="./estilos/footer.css">
     <link rel="stylesheet" href="./estilos/nav.css">
     <link rel="stylesheet" href="./estilos/contato.css">
     <link rel="stylesheet" href="./estilos/media-querys/tablet.css">
     <link rel="stylesheet" href="./estilos/media-querys/pc.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');</style>
-  
     <title>Igor fernandes</title>
 </head>
 <body>
     <header class="header-container">
-        <p class="detalhe">&lt;/&gt;</p>
-        <h1 class="meu-nome">Igor Fernandes Vital</h1>
-        <p class="sub-titulo"> Desenvolvedor Back-End</p>
+        <section class="header-area">
+            <!-- Titulo -->
+            <div class="section-titulo">
+                <p class="detalhe">&lt;/&gt;</p>
+                <h1 class="meu-nome">Igor Fernandes Vital</h1>
+                <p class="sub-titulo"> Desenvolvedor Back-End</p>
+                <!-- Midias Socias  -->
+                <section class="midias-sociais-container">
+                    <a href="https://github.com/IgorFernandesVital"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img" src="./imagens/github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/igor-fernandes-vital/"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img"src="./imagens/linkedin_03.svg" alt="linkedin"></a>
+                </section>
+            </div>
+            <!-- Sobre mim -->
+            <div class="sobre-mim-conteudo">
+                <h2 class="sobre-mim-titulo">Sobre mim</h2>
+                <p class="sobre-mim-texto"> Tenho 23 anos e estou <b class="texto-destacado">cursando</b> Ciência da Computação. Enquanto aprendo, crio <b class="texto-destacado">projetos</b> para <b class="texto-destacado">melhorar meu dia a dia</b> e dos meus amigos.</p>
+            </div>
+            <!-- Eu -->
+            <img  class="eu" src="./imagens/eu.jpg" alt="Igor Fernandes Vital">   
+        </section>
     </header>
-    <section class="midias-sociais-container">
-        <a href="https://github.com/IgorFernandesVital"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img" src="./imagens/github.svg" alt="github"></a>
-        <a href="https://www.linkedin.com/in/igor-fernandes-vital/"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img"src="./imagens/linkedin_03.svg" alt="linkedin"></a>
-    </section>
     <nav class="nav-container">
         <div class="nav-estilo">
             <a href="#sobre-mim"><img class="nav-icons"src="https://img.icons8.com/pastel-glyph/64/000000/gender-neutral-user.png"/></a>
@@ -34,13 +44,6 @@
             <a href="#contato"><img class="nav-icons"src="https://img.icons8.com/ios/50/000000/chat-message--v1.png"/></a>
         </div>
     </nav>
-    <section id="sobre-mim"class="sobre-mim-container">
-        <div class="sobre-mim-conteudo">
-            <h2 class="sobre-mim-titulo">Sobre mim</h2>
-            <p class="sobre-mim-texto"> Tenho 23 anos e estou <b class="texto-destacado">cursando</b> Ciência da Computação. Enquanto aprendo, crio <b class="texto-destacado">projetos</b> para <b class="texto-destacado">melhorar meu dia a dia</b> e dos meus amigos.</p>
-        </div>
-        <img  class="eu" src="./imagens/eu.jpg" alt="Igor Fernandes Vital">   
-    </section>
     <section  id="projetos"class="projetos-container">
         <h1 class="projetos-titulo">Projetos</h1>
         <div class="projetos-container-card">

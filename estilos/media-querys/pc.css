@@ -1,68 +1,70 @@
-@media (min-width: 635px) and (max-width:768px)
+@media (min-width: 1091px)
 {
     /* Header */
-    .detalhe{
-        font-size: var(--font-size-title-tablet);
-    }
-    .meu-nome{
-        font-size: var(--font-size-title-tablet);
-    }
-    .sub-titulo{
-        font-size: var(--font-size-normal-tablet);
-    }
-    /* Midias sociais */
-    .midias-sociais-img{
-        width: 3rem;
-    }
-    /* Sobre mim */
-    .sobre-mim-container{
-        padding:1rem 2.5rem 0 ;
+    .header-area{
+        max-width: 1400px;
         display: grid;
         grid-template-areas: 
-        "titulo imagem"
+        "titulo img"
+        "mim img"
         ;
     }
-    .sobre-mim-conteudo{
-        padding: 9rem 2rem 0 2rem;
-    }
-        .sobre-mim-titulo{
-            font-size: var(--font-size-title-tablet);
+    /* Titulo -----------------------------------------------------------------------*/
+        .section-titulo{
+            padding-top: 4rem;
             grid-area: titulo;
         }
-        .sobre-mim-texto{
-            font-size: var(--font-size-normal-tablet);
+            .detalhe, .meu-nome{
+                font-size: var(--font-size-title-pc);
+            }
+            .sub-titulo{
+                font-size: var(--font-size-normal-pc);
+            }
+    /* Midias sociais --------------------------------------------------------------*/
+            .midias-sociais-container{
+                padding: 3rem 0 0 0;
+            }
+                .midias-sociais-img{
+                    width: 3rem;
+                }
+    /* Sobre mim -------------------------------------------------------------------*/
+        .sobre-mim-conteudo{
+            padding: 0rem 2rem 0 2rem;
+            grid-area: mim;
         }
-    .eu{
-        width: 18rem;
-        grid-area: imagem;
-    }
-    /* Projetos */
+                .sobre-mim-titulo{
+                    font-size: var(--font-size-title-pc);
+                }
+                .sobre-mim-texto{
+                    font-size: var(--font-size-normal-pc);
+                }
+        .eu{
+            width: 25rem;
+            grid-area: img;
+        }
+    /* Projetos ---------------------------------------------------------------------*/
     .projetos-titulo{
-        font-size: var(--font-size-title-tablet);
+        font-size: var(--font-size-title-pc);
     }
-    .projetos-container-card{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 3rem;
-    }
-    /* Contato */
+        .projetos-container-card{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 4rem;
+        }
+    /* Contato ----------------------------------------------------------------------*/
     .contato-title{
-        font-size: var(--font-size-title-tablet);
+        font-size: var(--font-size-title-pc);
     }
-    .contato-texto{
-        font-size: var(--font-size-normal-tablet);
-    }
-    /* Footer */
+        .contato-texto{
+            font-size: var(--font-size-normal-pc);
+        }
+    /* Footer -----------------------------------------------------------------------*/
     .footer-container{
-        font-size: var(--font-size-normal-tablet);
+        font-size: var(--font-size-normal-pc);
+        padding-bottom: 1rem;
     }
-    /* Barra de navegação */
-    .nav-estilo{
-        padding: 0.5rem 5rem 0.5rem;
-        border-radius: 1.5rem;
-        column-gap: 3rem;
-    }
-    .nav-icons{
-        width: 3.5rem;
+    /* Barra de navegação -----------------------------------------------------------*/
+    .nav-container{
+        display: none;
     }
 }
