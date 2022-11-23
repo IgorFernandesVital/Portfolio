@@ -1,4 +1,4 @@
-@media (min-width: 1091px)
+@media only screen and (min-width: 1091px)
 {
     /* Header */
     .header-area{
