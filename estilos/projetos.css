@@ -8,7 +8,9 @@
     }
     .projetos-container-card{
         padding-top: 1.5rem;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        row-gap: 3rem;
         justify-content: center;
     }
         .card-container{
@@ -50,5 +52,5 @@
                 padding: 0.5rem 0.7rem 0.5rem 0.7rem;
                 border-radius: 0.5rem;
                 color: var(--cor-card);
-                background: var(--cor-letras-destaque);   
+                background: var(--cor-destaque);   
             }

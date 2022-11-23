@@ -10,12 +10,17 @@ html{
     scroll-behavior: smooth;
 }
 :root{
+    /* Mobile */
     --font-size-normal: 0.9rem ;
     --font-size-title: 1.5rem;
     --centralizacao: 0 1rem 0 1rem;
+    /* Tablet */
+    --font-size-normal-tablet: 1.2rem;
+    --font-size-title-tablet: 2.5rem;
+    /* Cores gerais */
     --cor-bk: rgb(230,223,209);
     --cor-letras: rgb(59,59,59);
-    --cor-letras-destaque: rgb(159,84,53);
+    --cor-destaque: rgb(159,84,53);
     --cor-card: rgb(176,185,167);
 }
 body{
@@ -25,5 +30,5 @@ a{
     text-decoration: none;
 }
 .texto-destacado{
-    color: var(--cor-letras-destaque);
+    color: var(--cor-destaque);
 }

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./estilos/footer.css">
     <link rel="stylesheet" href="./estilos/nav.css">
     <link rel="stylesheet" href="./estilos/contato.css">
+    <link rel="stylesheet" href="./estilos/media-querys/tablet.css">
+    <link rel="stylesheet" href="./estilos/media-querys/pc.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');</style>
   
     <title>Igor fernandes</title>
@@ -22,8 +24,8 @@
         <p class="sub-titulo"> Desenvolvedor Back-End</p>
     </header>
     <section class="midias-sociais-container">
-        <a href="https://github.com/IgorFernandesVital"><img class="midias-sociais-img" src="./imagens/github.svg" alt="github"></a>
-        <a href="https://www.linkedin.com/in/igor-fernandes-vital/"><img class="midias-sociais-img"src="./imagens/linkedin_03.svg" alt="linkedin"></a>
+        <a href="https://github.com/IgorFernandesVital"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img" src="./imagens/github.svg" alt="github"></a>
+        <a href="https://www.linkedin.com/in/igor-fernandes-vital/"target="_blank" rel="noopener noreferrer"><img class="midias-sociais-img"src="./imagens/linkedin_03.svg" alt="linkedin"></a>
     </section>
     <nav class="nav-container">
         <div class="nav-estilo">
@@ -33,8 +35,10 @@
         </div>
     </nav>
     <section id="sobre-mim"class="sobre-mim-container">
-        <h2 class="sobre-mim-titulo">Sobre mim</h2>
-        <p class="sobre-mim-texto"> Tenho 23 anos, <b class="texto-destacado">cursando</b> Ciência da Computação. Atualmente crio <b class="texto-destacado">projetos</b> para <b class="texto-destacado">melhorar meu dia a dia</b> e dos meus amigos enquanto aprendo.</p>
+        <div class="sobre-mim-conteudo">
+            <h2 class="sobre-mim-titulo">Sobre mim</h2>
+            <p class="sobre-mim-texto"> Tenho 23 anos e estou <b class="texto-destacado">cursando</b> Ciência da Computação. Enquanto aprendo, crio <b class="texto-destacado">projetos</b> para <b class="texto-destacado">melhorar meu dia a dia</b> e dos meus amigos.</p>
+        </div>
         <img  class="eu" src="./imagens/eu.jpg" alt="Igor Fernandes Vital">   
     </section>
     <section  id="projetos"class="projetos-container">
@@ -56,11 +60,43 @@
                     </div>
                 </div>
             </a>
+            <a href="#">
+                <div class="card-container">
+                    <img src="./imagens/fundo.jpg" alt="portifolio-igor-fernandes" class="card-image">
+                    <div class="card-descricao">
+                        <h1 class="card-title">Desenvolvendo</h1>
+                        <p class="card-resumo">01100100 01100101 01110011 01100101 01101110 01110110 01101111 01101100 01110110 01100101 01101110 01100100 01101111 </p>
+                    </div>
+                    <div class="card-linguagens">
+                        <p class="card-linguagem">HTML</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-container">
+                    <img src="./imagens/fundo.jpg" alt="portifolio-igor-fernandes" class="card-image">
+                    <div class="card-descricao">
+                        <h1 class="card-title">Desenvolvendo</h1>
+                        <p class="card-resumo">01100100 01100101 01110011 01100101 01101110 01110110 01101111 01101100 01110110 01100101 01101110 01100100 01101111 </p>
+                    </div>
+                    <div class="card-linguagens">
+                        <p class="card-linguagem">HTML</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                        <p class="card-linguagem">CSS</p>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
     <section class="contato-container">
-        <h2 id="contato" class="contato-titulo">Contato</h2>
-        <p class="contato-texto">Caso queria falar comigo, mande uma mensagem no meu <a href="https://www.linkedin.com/in/igor-fernandes-vital/" class="contato-action">Linkedin</a> ou <a href="#" class="contato-action">E-mail</a>.</p>
+        <h2 id="contato" class="contato-title">Contato</h2>
+        <p class="contato-texto">Caso queria falar comigo, mande uma mensagem no meu <a href="https://www.linkedin.com/in/igor-fernandes-vital/"target="_blank" rel="noopener noreferrer" class="contato-action">Linkedin</a> ou <a href="#"target="_blank" rel="noopener noreferrer" class="contato-action">E-mail</a>.</p>
     </section>
     <footer class="footer-container">
         <p>Feito a mão por mim! &copy; Igor Fernandes</p>
