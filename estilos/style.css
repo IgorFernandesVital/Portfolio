@@ -14,6 +14,7 @@ html{
     --font-size-normal: 0.9rem ;
     --font-size-title: 1.5rem;
     --centralizacao: 0 1rem 0 1rem;
+    --espacamento-titulos: 1.4rem;
     /* Tablet */
     --font-size-normal-tablet: 1.2rem;
     --font-size-title-tablet: 2.5rem;
@@ -21,10 +22,10 @@ html{
     --font-size-normal-pc: 1.5rem;
     --font-size-title-pc: 2.6rem;
     /* Cores gerais */
-    --cor-bk: rgb(230,223,209);
+    --cor-bk: rgb(246, 255, 246);
     --cor-letras: rgb(59,59,59);
-    --cor-destaque: rgb(159,84,53);
-    --cor-card: rgb(176,185,167);
+    --cor-destaque: rgb(53, 159, 71);
+    --cor-card: rgb(248, 255, 251);
 }
 body{
     background: var(--cor-bk);

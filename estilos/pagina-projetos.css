@@ -1,0 +1,21 @@
+.container{
+    padding: var(--centralizacao);
+}
+    .sections-conteudo h1{
+        padding-top: var(--espacamento-titulos);
+    }    
+    .sections-conteudo p{
+        padding-top: var(--espacamento-titulos);
+        font-size: var(--font-size-normal);
+    }
+    .sections-conteudo a{
+        font-weight: bold;
+        color: var(--cor-destaque);
+    }
+        .sections-conteudo ul{
+            padding-top: var(--espacamento-titulos);
+            padding-left: 1rem;
+        }
+        .decidir-designer{
+            padding-top: var(--espacamento-titulos);
+        }
