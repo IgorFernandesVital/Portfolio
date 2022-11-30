@@ -26,9 +26,15 @@
             }
                 .card-image{
                     pointer-events: none;
-                    height: 10rem;
+                    height: 9rem;
                     width: 17rem;
+                    margin-bottom: 1rem;
                     border-radius: 0.8rem 0.8rem 0 0;
+                }
+                .imagem-desenvolvendo{
+                    padding: 2rem 5.5rem 2rem;
+                    border-radius: 0.8rem 0.8rem 0 0;
+                    background-color: rgba(59,59,59,0.2);
                 }
                 .card-descricao{
                     padding: 1.5rem 0.5rem 0 0.5rem;

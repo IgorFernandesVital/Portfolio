@@ -1,7 +1,7 @@
 .container{
     padding: var(--centralizacao);
 }
-    .sections-conteudo h1{
+    .sections-conteudo h1, .sections-conteudo h3{
         padding-top: var(--espacamento-titulos);
     }    
     .sections-conteudo p{
@@ -19,3 +19,14 @@
         .decidir-designer{
             padding-top: var(--espacamento-titulos);
         }
+    .projetos-imagens{
+        padding-top: var(--espacamento-titulos);
+    }
+        .imagens-container{
+            text-align: center;
+            font-size: var(--font-size-title);
+        }
+            .imagens{
+                border: 1px solid rgba(0, 0, 0, 0.082);
+                width: 24rem;
+            }

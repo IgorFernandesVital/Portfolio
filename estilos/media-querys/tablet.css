@@ -72,4 +72,23 @@
         .nav-icons{
             width: 3.5rem;
         }
+    /* pagina projetos  */
+    .container-centralizacao{
+        max-width: 1400px;
+    }
+    .container-centralizacao p{
+        font-size: var(--font-size-normal-tablet);
+    }
+    .container-centralizacao h1{
+        font-size: var(--font-size-title-tablet);
+    }
+    .container-centralizacao ul {
+        font-size: var(--font-size-normal-tablet);
+    }
+    .container-centralizacao h3{
+        font-size: var(--font-size-normal-tablet);
+    }
+    .container-centralizacao h4{
+        font-size: var(--font-size-normal-tablet);
+    }
 }
