@@ -67,6 +67,7 @@
     .nav-container{
         position: fixed;
         z-index: 1;
+        left: inherit;
         top: 40%;
         bottom: auto;
         right: 2.5rem;
